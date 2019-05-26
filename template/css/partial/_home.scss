@@ -1,0 +1,47 @@
+main#home{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: 'sidebar sidebar films films films films';
+  @media (max-width: 767px) {
+    grid-template-rows: auto auto;
+    grid-template-areas:
+            'sidebar sidebar sidebar sidebar sidebar sidebar'
+            'films films films films films films';
+  }
+  padding: 0 2%;
+  aside#sidebar{
+    grid-area: sidebar;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    h2{
+      color: $gray;
+    }
+    ol{
+      padding-left: 15px;
+      font-family: Alice, sans-serif;
+      color: $gray;
+      li{
+        margin-bottom: 1rem;
+        a{
+          color: $black;
+          text-decoration: none;
+          font-weight: 600;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+  section#films{
+    grid-area: films;
+    h2{
+      color: $gray;
+    }
+    article.film{
+      h3{
+        font-family: Alice, sans-serif;
+        font-size: 2rem;
+      }
+    }
+  }
+}

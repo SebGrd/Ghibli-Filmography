@@ -1,0 +1,61 @@
+html {
+  scroll-behavior: smooth;
+}
+html body {
+  color: #222222;
+}
+html body h2 {
+  font-family: Alice, sans-serif;
+  text-transform: uppercase;
+}
+html body p {
+  font-family: Roboto, sans-serif;
+}
+
+main#home {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "sidebar sidebar films films films films";
+  padding: 0 2%;
+}
+@media (max-width: 767px) {
+  main#home {
+    grid-template-rows: auto auto;
+    grid-template-areas: "sidebar sidebar sidebar sidebar sidebar sidebar" "films films films films films films";
+  }
+}
+main#home aside#sidebar {
+  grid-area: sidebar;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+}
+main#home aside#sidebar h2 {
+  color: #949494;
+}
+main#home aside#sidebar ol {
+  padding-left: 15px;
+  font-family: Alice, sans-serif;
+  color: #949494;
+}
+main#home aside#sidebar ol li {
+  margin-bottom: 1rem;
+}
+main#home aside#sidebar ol li a {
+  color: #222222;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+main#home section#films {
+  grid-area: films;
+}
+main#home section#films h2 {
+  color: #949494;
+}
+main#home section#films article.film h3 {
+  font-family: Alice, sans-serif;
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

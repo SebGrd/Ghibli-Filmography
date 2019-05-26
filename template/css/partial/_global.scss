@@ -1,0 +1,13 @@
+html{
+  scroll-behavior: smooth;
+  body{
+    color: $black;
+    h2{
+      font-family: Alice, sans-serif;
+      text-transform: uppercase;
+    }
+    p{
+      font-family: Roboto, sans-serif;
+    }
+  }
+}
