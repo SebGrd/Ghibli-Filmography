@@ -63,11 +63,23 @@ main#home section#films h2 {
   margin: 0;
 }
 main#home section#films article.film {
-  padding-top: 30px;
+  padding-top: 50px;
 }
-main#home section#films article.film h3 {
+main#home section#films article.film header {
+  background: #833ab4;
+  background: linear-gradient(90deg, #833ab4 0%, #aa1dfd 50%, #fcb045 100%);
+  padding: 10px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+main#home section#films article.film header h3 {
   font-family: Alice, sans-serif;
   font-size: 2rem;
+  margin: 0;
+}
+main#home section#films article.film .film-body {
+  background: #eee;
+  padding: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
