@@ -10,3 +10,8 @@
     <link href="https://fonts.googleapis.com/css?family=Alice|Roboto:300,400,500,700&display=swap" rel="stylesheet">
 </head>
 <body>
+<!--<header id="header">-->
+<!--    <nav>-->
+<!--        <img src="--><?php //echo ('http://'.$_SERVER['HTTP_HOST']."/template/img/1200px-Logo_Ghibli.svg.png"); ?><!--" alt="">-->
+<!--    </nav>-->
+<!--</header>-->

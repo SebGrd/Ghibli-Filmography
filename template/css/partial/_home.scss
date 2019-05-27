@@ -16,6 +16,9 @@ main#home{
     flex-direction: column;
     h2{
       color: $gray;
+      width: 100%;
+      height: 50px;
+      margin: 0;
     }
     ol{
       padding-left: 15px;
@@ -36,8 +39,14 @@ main#home{
     grid-area: films;
     h2{
       color: $gray;
+      position: fixed;
+      background: #fff;
+      width: 100%;
+      height: 50px;
+      margin: 0;
     }
     article.film{
+      padding-top: 30px;
       h3{
         font-family: Alice, sans-serif;
         font-size: 2rem;

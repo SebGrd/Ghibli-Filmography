@@ -3,6 +3,7 @@ html {
 }
 html body {
   color: #222222;
+  margin: 0;
 }
 html body h2 {
   font-family: Alice, sans-serif;
@@ -32,6 +33,9 @@ main#home aside#sidebar {
 }
 main#home aside#sidebar h2 {
   color: #949494;
+  width: 100%;
+  height: 50px;
+  margin: 0;
 }
 main#home aside#sidebar ol {
   padding-left: 15px;
@@ -52,6 +56,14 @@ main#home section#films {
 }
 main#home section#films h2 {
   color: #949494;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+}
+main#home section#films article.film {
+  padding-top: 30px;
 }
 main#home section#films article.film h3 {
   font-family: Alice, sans-serif;

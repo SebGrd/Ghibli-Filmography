@@ -19,13 +19,12 @@ class api
         $json = file_get_contents($this->baseUrl.'people/');
         $peoples = json_decode($json, true);
 
-
+        $personInFilm = array();
 
         foreach ($peoples as $person){
 
-            $personInfFilm = array();
-
-            if ([$person['films'][0]] === $this->baseUrl.'/films/'.$filmId){
+            if($person['films'][0] == $this->baseUrl.'films/'.$filmId){
+                echo 'MATCH ';
                 $personInfo = array(
                     $person['id'],
                     $person['name'],
@@ -36,9 +35,10 @@ class api
                     $person['species'],
                     $person['url']
                 );
-                array_push($personInfFilm, $personInfo);
+                array_push($personInFilm, $personInfo);
             }
+
         }
-        return $personInfFilm;
+        return $personInFilm;
     }
 }
