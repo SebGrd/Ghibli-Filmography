@@ -24,16 +24,15 @@ class api
         foreach ($peoples as $person){
 
             if($person['films'][0] == $this->baseUrl.'films/'.$filmId){
-                echo 'MATCH ';
                 $personInfo = array(
-                    $person['id'],
-                    $person['name'],
-                    $person['gender'],
-                    $person['age'],
-                    $person['eye_color'],
-                    $person['hair_color'],
-                    $person['species'],
-                    $person['url']
+                    'id' => $person['id'],
+                    'name' => $person['name'],
+                    'gender' => $person['gender'],
+                    'age' => $person['age'],
+                    'eye_color' => $person['eye_color'],
+                    'hair_color' => $person['hair_color'],
+                    'species' => $person['species'],
+                    'url' => $person['url']
                 );
                 array_push($personInFilm, $personInfo);
             }
