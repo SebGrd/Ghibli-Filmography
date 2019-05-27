@@ -66,8 +66,9 @@ main#home section#films article.film {
   padding-top: 50px;
 }
 main#home section#films article.film header {
-  background: #833ab4;
-  background: linear-gradient(90deg, #833ab4 0%, #aa1dfd 50%, #fcb045 100%);
+  background: #8A2387;
+  background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+  background: linear-gradient(to right, #F27121, #E94057, #8A2387);
   padding: 10px 15px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -76,6 +77,8 @@ main#home section#films article.film header h3 {
   font-family: Alice, sans-serif;
   font-size: 2rem;
   margin: 0;
+  color: white;
+  text-shadow: grey 0 0 8px;
 }
 main#home section#films article.film .film-body {
   background: #eee;

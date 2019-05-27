@@ -48,8 +48,9 @@ main#home{
     article.film{
       padding-top: 50px;
       header{
-        background: rgb(131,58,180);
-        background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(170,29,253,1) 50%, rgba(252,176,69,1) 100%);
+        background: #8A2387;
+        background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);
+        background: linear-gradient(to right, #F27121, #E94057, #8A2387);
         padding: 10px 15px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
@@ -57,6 +58,8 @@ main#home{
           font-family: Alice, sans-serif;
           font-size: 2rem;
           margin: 0;
+          color: white;
+          text-shadow: grey 0 0 8px;
         }
       }
       .film-body{
