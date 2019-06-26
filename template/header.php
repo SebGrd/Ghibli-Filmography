@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="template/css/style.css">
 </head>
 <body>
-<!--<header id="header">-->
-<!--    <nav>-->
-<!--        <img src="--><?php //echo ('http://'.$_SERVER['HTTP_HOST']."/template/img/1200px-Logo_Ghibli.svg.png"); ?><!--" alt="">-->
-<!--    </nav>-->
-<!--</header>-->
+<header id="header">
+    <nav>
+        <img src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/template/img/1200px-Logo_Ghibli.svg.png"); ?>" alt="">
+    </nav>
+</header>

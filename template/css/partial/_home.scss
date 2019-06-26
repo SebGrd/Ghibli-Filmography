@@ -1,3 +1,13 @@
+header#header{
+  position: fixed;
+  top: 15vh;
+  z-index: -5;
+  img{
+    max-width: 100%;
+    opacity: 0.05;
+  }
+}
+
 main#home{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;

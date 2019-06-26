@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f52c70-ecb7-4624-8303-b79f458db4c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/css/partial/_home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/template/css/partial/_home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/template/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/template/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +22,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/template/css/partial/_home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -71,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/template/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+            <state relative-caret-position="221">
+              <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -181,12 +183,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558943736121</updated>
       <workItem from="1558943737548" duration="14012000" />
-      <workItem from="1561567542315" duration="9601000" />
+      <workItem from="1561567542315" duration="10199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23613000" />
+    <option name="totallyTimeSpent" value="24211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -260,13 +262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/template/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -274,10 +269,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/template/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/template/css/partial/_home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>

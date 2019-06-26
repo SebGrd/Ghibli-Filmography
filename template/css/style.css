@@ -13,6 +13,16 @@ html body p {
   font-family: Roboto, sans-serif;
 }
 
+header#header {
+  position: fixed;
+  top: 15vh;
+  z-index: -5;
+}
+header#header img {
+  max-width: 100%;
+  opacity: 0.05;
+}
+
 main#home {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
