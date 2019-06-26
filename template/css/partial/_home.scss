@@ -1,3 +1,13 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  section#films{
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+    width: 65vw;
+    float: right;
+  }
+}
+
 header#header{
   position: fixed;
   top: 15vh;
