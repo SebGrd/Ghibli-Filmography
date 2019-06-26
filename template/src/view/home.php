@@ -1,7 +1,4 @@
 
-<!--[if gte IE 4]>
-<h1>DAB</h1>
-<![endif]-->
 <main id="home">
 
     <aside id="sidebar">
@@ -23,7 +20,7 @@
     <nav class="mobile-menu">
         <div class="m-menu-header">
             <h2>Films list</h2>
-            <button class="close-mobile-btn">🗙</button>
+            <button class="close-mobile-btn"><i class="fas fa-times"></i></button>
         </div>
         <ol>
             <?php $filmId=0;
