@@ -11,6 +11,25 @@
         </ol>
     </aside>
 
+    <button class="hamburger hamburger--collapse open-mobile-btn" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+    </button>
+    <nav class="mobile-menu">
+        <div class="m-menu-header">
+            <h2>Films list</h2>
+            <button class="close-mobile-btn">🗙</button>
+        </div>
+        <ol>
+            <?php $filmId=0;
+            foreach ($films as $film){ ?>
+                <li><a href="#film-<?php echo $filmId ?>" class="mobile-link"><?php echo $film['title']; ?></a></li>
+                <?php $filmId++;
+            } ?>
+        </ol>
+    </nav>
+
     <section id="films">
         <h2>Films</h2>
 
@@ -27,28 +46,16 @@
                     <p>Release date : <strong><?php echo $film['release_date']; ?></strong></p>
                     <p>Score : <strong><?php echo $film['rt_score']; ?>%</strong></p>
 
-                    <h4>Film characters</h4>
-                    <ul>
-                        <?php foreach ($api->getPeopleList($film['id']) as $character){ ?>
-                            <li><?php echo $character['name']; ?>
-                                <ul>
-                                    <li><?php echo $character['gender']; ?></li>
-                                    <li><?php echo $character['age']; ?></li>
-                                    <li><?php echo $character['eye_color']; ?></li>
-                                    <li><?php echo $character['hair_color']; ?></li>
-                                    <li><?php echo $character['species']; ?></li>
-                                </ul>
-                            </li>
-                        <?php }; ?>
-                    </ul>
                 </div>
 
 
-            <article>
+            </article>
             <?php $filmId++;
         } ?>
 
-        <pre><?php var_dump($films);?></pre>
     </section>
 
 </main>
+
+<script src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/template/js/jquery.js"); ?>"></script>
+<script src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/template/js/app.js"); ?>"></script>
