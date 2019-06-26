@@ -57,5 +57,5 @@
 
 </main>
 
-<script src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/template/js/jquery.js"); ?>"></script>
-<script src="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/template/js/app.js"); ?>"></script>
+<script src="/template/js/jquery.js"></script>
+<script src="/template/js/app.js"></script>

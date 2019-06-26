@@ -7,8 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Ghibli Sutdio Filmography</title>
     <link href="https://fonts.googleapis.com/css?family=Alice|Roboto:300,400,500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/template/css/hamburgers.css"); ?>">
-    <link rel="stylesheet" href="<?php echo ('http://'.$_SERVER['HTTP_HOST']."/template/css/style.css"); ?>">
+    <link rel="stylesheet" href="/template/css/hamburgers.css">
+    <link rel="stylesheet" href="/template/css/style.css">
 </head>
 <body>
 <!--<header id="header">-->
